@@ -23,7 +23,7 @@ body {
 .calendar {
   /* border: 2px solid black; */
   width: 60%;
-  height: 90%;
+  height: 70%;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -56,16 +56,17 @@ body {
 }
 
 .main-heading {
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .prev,
 .next {
-  padding: 10px;
+  padding: 8px;
   border-radius: 10px;
   border: none;
   box-shadow: 0 0 10px #000, inset 0 0 10px #000;
   background: none;
+  font-size: 10px;
 }
 
 .calendar-days {
@@ -101,7 +102,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px #000, inset 0 0 10px #000;
 }
