@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css" />
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Color CSS -->
+    <link rel="stylesheet" href="CSS/colors.css" />
+    <title>Calendar</title>
+  </head>
+  <body>
+    <div class="calendar" id="calendar">
+      <div class="heading-container">
+        <div class="header" id="header">
+            <button class="prev" id="prev">
+              <i class="fas fa-angle-double-left"></i> Previous month
+            </button>
+            <h1 class="main-heading">Month and year</h1>
+            <button class="next" id="next">
+              Next month <i class="fas fa-angle-double-right"></i>
+            </button>
+          </div>
+          <div class="calendar-days" id="calendar-days">
+            <div class="days">Sun</div>
+            <div class="days">Mon</div>
+            <div class="days">Tue</div>
+            <div class="days">Wed</div>
+            <div class="days">Thu</div>
+            <div class="days">Fri</div>
+            <div class="days">Sat</div>
+          </div>
+      </div>
+      <div class="calendar-grid" id="calendar-grid"></div>
+    </div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
