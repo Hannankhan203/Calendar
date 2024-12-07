@@ -13,6 +13,7 @@ const customSpecialDays = [
     {name: "Samra's Birthday", date: 4, month: 5}, 
     {name: "Nimra's Birthday", date: 20, month: 6}, 
     {name: "Naseer's Birthday", date: 12, month: 8}, 
+    {name: "Inshaal's Birthday", date: 1, month: 1}, 
 ]
 
 const BASE_URL =
