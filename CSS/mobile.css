@@ -109,3 +109,8 @@ body {
   border: 1px solid #ccc;
   box-shadow: 0 0 10px #000, inset 0 0 10px #000;
 }
+
+.days {
+  /* border: 2px solid black; */
+  font-size: 0.8rem;
+}
