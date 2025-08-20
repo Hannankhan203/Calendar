@@ -103,3 +103,39 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0 0 10px #000, inset 0 0 10px #000;
 }
+
+/* Universal Styling */
+
+body {
+    background-color: #F9F9F9;
+}
+
+.heading-container {
+    
+    color: #3A6EA5;
+    background-color: #FF9800;
+}
+
+.prev, .next {
+    background-color: #F9F9F9;
+    color: #3A6EA5;
+    transition: 0.5s;
+}
+
+.prev:hover, .next:hover {
+    color: #F9F9F9;
+    background-color: #3A6EA5;
+}
+
+.prev:active, .next:active {
+    transform: scale(0.9);
+}
+
+.calendar-grid {
+    background-color: #F9F9F9;
+}
+
+.day.today {
+    background-color: #FF9800;
+    color: #F9F9F9;
+}
